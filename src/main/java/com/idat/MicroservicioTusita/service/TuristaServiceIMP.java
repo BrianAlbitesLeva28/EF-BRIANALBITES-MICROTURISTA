@@ -19,26 +19,10 @@ public class TuristaServiceIMP implements TuristaService {
 		return repository.findAll();
 	}
 
-	@Override
-	public Turista obtenerId(Integer id) {
-		return repository.findById(id).orElse(null);
-	}
 
 	@Override
 	public void guardar(Turista turista) {
 		repository.save(turista);
-		
-	}
-
-	@Override
-	public void actualizar(Turista turista) {
-		repository.saveAndFlush(turista);
-		
-	}
-
-	@Override
-	public void eliminar(Integer id) {
-		repository.deleteById(id);
 		
 	}
 
