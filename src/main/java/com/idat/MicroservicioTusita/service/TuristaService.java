@@ -2,11 +2,11 @@ package com.idat.MicroservicioTusita.service;
 
 import java.util.List;
 
-import com.idat.MicroservicioTusita.model.Turista;
+import com.idat.MicroservicioTusita.DTO.TuristaDTO;
 
 public interface TuristaService {
 	
-	List<Turista> listar();
-	void guardar(Turista alumno);
+	List<TuristaDTO> listar();
+	void guardar(TuristaDTO turista);
 
 }
