@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.idat.MicroservicioTusita.DTO.TuristaDTO;
-import com.idat.MicroservicioTusita.model.Turista;
 import com.idat.MicroservicioTusita.service.TuristaService;
 
 @Controller
